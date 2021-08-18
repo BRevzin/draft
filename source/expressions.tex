@@ -7043,7 +7043,7 @@ A constant-initialized potentially-constant variable $V$ is
 \defn{usable in constant expressions} at a point $P$ if
 $V$'s initializing declaration $D$ is reachable from $P$ and
 \begin{itemize}
-\item $V$ is constexpr,
+\item $V$ is constexpr, or
 \item $V$ is not initialized to a TU-local value, or
 \item $P$ is in the same translation unit as $D$.
 \end{itemize}
